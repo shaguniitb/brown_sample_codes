@@ -1,13 +1,13 @@
 #include "shared.h"
 unsigned int testfn2(unsigned int a, unsigned int b)
 {
-    printf("test2\n");
+    printf("in testfn2\n");
     return a + b;
 }
 
 unsigned int testfn(unsigned int a)
 {
-    printf("test\n");
+    printf("in testfn\n");
     return a;
 }
 
